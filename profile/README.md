@@ -12,8 +12,8 @@ Engineering scalable multi-tenant ERP platforms and secure high-performance busi
 ### 🛠️ Tech Stack & Ecosystem
 We utilize a modern, high-performance set of technologies to power our enterprise solutions:
 
-*   **Backend & Core**: PHP (Native & MVC Architecture)
-*   **Database Management**: MS SQL Server (MSSQL), Prisma ORM
+*   **Backend & Core**: PHP (Native & MVC Architecture), golang
+*   **Database Management**: MS SQL Server (MSSQL), PostgreSQL
 *   **Web & Frontend**: Next.js, TypeScript, Tailwind CSS, JavaScript
 *   **Reporting & Analytics**: Stimulsoft Reports Engine
 *   **Infrastructure & DevOps**: Docker, Firebase, GitHub Actions CI/CD
