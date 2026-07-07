@@ -1,11 +1,49 @@
-# Supervision Technology (PVT) LTD
+<!-- 🔥 Waving CSS Animations Setup -->
+<style>
+  /* 🌊 Title එක Wave වෙන්න (Floating Effect) */
+  .floating-title {
+    animation: wave-text 3s ease-in-out infinite alternate;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #58a6ff;
+    text-align: center;
+    margin-bottom: 5px;
+  }
 
-<p align="center">
-  <!-- 🎯 Banner එකක් දාන්න ඕන නම් ඔයාගේ කම්පැනි බැනර් ඉමේජ් එකක ලින්ක් එක මෙතනට දෙන්න -->
-  <img src="https://via.placeholder.com/1200x400.png?text=Supervision+Technology" alt="Supervision Technology Banner" width="100%">
+  /* 🖼️ Hero Image/Banner එක Wave වෙන්න */
+  .waving-hero {
+    animation: wave-image 6s ease-in-out infinite alternate;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    width: 100%;
+  }
+
+  /* Keyframes for Text Floating */
+  @keyframes wave-text {
+    0% { transform: translateY(0px) rotate(0deg); }
+    100% { transform: translateY(-8px) rotate(0.5deg); }
+  }
+
+  /* Keyframes for Hero Smooth Waving */
+  @keyframes wave-image {
+    0% { transform: translateY(0px) scale(1); }
+    50% { transform: translateY(-6px) scale(1.01) skewX(0.5deg); }
+    100% { transform: translateY(0px) scale(1); }
+  }
+</style>
+
+<!-- 🎯 Title Area with Animating Waving Effect -->
+<div class="floating-title">
+  Supervision Technology (PVT) LTD 👋
+</div>
+<p align="center" style="font-size: 1.2em; color: #8b949e; font-style: italic; text-align: center;">
+  Turning visions into high-performance reality
 </p>
 
-## Welcome to Supervision Technology! 👋
+<!-- 🖼️ Animating Hero Banner -->
+<p align="center">
+  <img class="waving-hero" src="https://via.placeholder.com/1200x400.png?text=Supervision+Technology" alt="Supervision Technology Banner">
+</p>
 
 ---
 
