@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="100%">
+  <style>
+    .text-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 32px;
+      font-weight: bold;
+      fill: #58a6ff;
+      animation: floatingText 3s ease-in-out infinite alternate;
+      text-anchor: middle;
+    }
+    .text-sub {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      fill: #8b949e;
+      animation: floatingText 3s ease-in-out infinite alternate;
+      animation-delay: 0.2s;
+      text-anchor: middle;
+      font-style: italic;
+    }
+    @keyframes floatingText {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+  </style>
+  <text x="400" y="55" class="text-title">Supervision Technology (PVT) LTD 👋</text>
+  <text x="400" y="100" class="text-sub">Turning visions into high-performance reality</text>
+</svg>
