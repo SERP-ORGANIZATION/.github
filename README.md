@@ -1,11 +1,37 @@
-<!-- 🌊 Dynamic Waving Title Banner (100% GitHub Supported via SVG) -->
+<!-- 🌊 100% GitHub Supported Animating Waving Title & Subtitle -->
 <p align="center">
-  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 120' width='100%25'><style>.text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 34px; font-weight: bold; fill: %2358a6ff; animation: wave-text 3s ease-in-out infinite alternate; text-anchor: middle; } .subtext { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 18px; fill: %238b949e; animation: wave-text 3s ease-in-out infinite alternate; animation-delay: 0.2s; text-anchor: middle; font-style: italic; } @keyframes wave-text { 0% { transform: translateY(0px); } 100% { transform: translateY(-8px); } }</style><text x='400' y='50' class='text'>Supervision Technology (PVT) LTD 👋</text><text x='400' y='95' class='subtext'>Turning visions into high-performance reality</text></svg>" alt="Supervision Technology">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 130" width="100%">
+    <style>
+      .text-title {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 32px;
+        font-weight: bold;
+        fill: #58a6ff;
+        animation: floatingText 3s ease-in-out infinite alternate;
+        text-anchor: middle;
+      }
+      .text-sub {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        fill: #8b949e;
+        animation: floatingText 3s ease-in-out infinite alternate;
+        animation-delay: 0.2s;
+        text-anchor: middle;
+        font-style: italic;
+      }
+      @keyframes floatingText {
+        0% { transform: translateY(0px); }
+        100% { transform: translateY(-8px); }
+      }
+    </style>
+    <text x="400" y="55" class="text-title">Supervision Technology (PVT) LTD 👋</text>
+    <text x="400" y="100" class="text-sub">Turning visions into high-performance reality</text>
+  </svg>
 </p>
 
-<!-- 🖼️ Dynamic Waving Hero Banner (Using Web Animations) -->
+<!-- 🖼️ Company Banner (Placeholder Image URL Fixed to standard GitHub compatible format) -->
 <p align="center">
-  <img src="https://via.placeholder.com/1200x400.png?text=Supervision+Technology" alt="Supervision Technology Banner" width="100%">
+  <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=1200&auto=format&fit=crop" alt="Supervision Technology Banner" width="100%" style="border-radius: 10px;">
 </p>
 
 ---
